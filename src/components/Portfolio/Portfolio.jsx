@@ -1,9 +1,123 @@
-import React from 'react'
+import React from "react";
+import "./Portfolio.css";
+import IMGI from "../../assets/me.jpg";
+import IMGI1 from "../../assets/me.jpg";
+import IMGI2 from "../../assets/me.jpg";
+import IMGI3 from "../../assets/me.jpg";
+import IMGI4 from "../../assets/me.jpg";
+import IMGI5 from "../../assets/me.jpg";
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
-  )
-}
+    <section id="portfolio">
+      <h5>My Recent Work</h5>
+      <h2>Porfolio</h2>
 
-export default Portfolio
+      <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMGI} alt="porfolio" />
+            <h3>This is a portfolio item title</h3>
+            <div className=".portfolio__item-cta">
+              <a href="https://github.com" className="btn">
+                Github
+              </a>
+              <a
+                href="https://dribble.com/Alien_pixels"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMGI1} alt="porfolio" />
+            <h3>This is a portfolio item title</h3>
+            <div className=".portfolio__item-cta">
+              <a href="https://github.com" className="btn">
+                Github
+              </a>
+              <a
+                href="https://dribble.com/Alien_pixels"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMGI2} alt="porfolio" />
+            <h3>This is a portfolio item title</h3>
+            <div className=".portfolio__item-cta">
+              <a href="https://github.com" className="btn">
+                Github
+              </a>
+              <a
+                href="https://dribble.com/Alien_pixels"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMGI3} alt="porfolio" />
+            <h3>This is a portfolio item title</h3>
+            <div className=".portfolio__item-cta">
+              <a href="https://github.com" className="btn">
+                Github
+              </a>
+              <a
+                href="https://dribble.com/Alien_pixels"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMGI4} alt="porfolio" />
+            <h3>This is a portfolio item title</h3>
+            <div className=".portfolio__item-cta">
+              <a href="https://github.com" className="btn">
+                Github
+              </a>
+              <a
+                href="https://dribble.com/Alien_pixels"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMGI5} alt="porfolio" />
+            <h3>This is a portfolio item title</h3>
+            <div className=".portfolio__item-cta">
+              <a href="https://github.com" className="btn">
+                Github
+              </a>
+              <a
+                href="https://dribble.com/Alien_pixels"
+                className="btn btn-primary"
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  );
+};
+export default Portfolio;
