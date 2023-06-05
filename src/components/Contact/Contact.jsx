@@ -12,17 +12,16 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_8nmsi2e",
-        "template_v5o82cp",
-        form.current,
-        "HN1BfRgPpwnU-tphN",
+    emailjs.sendForm(
+      "service_8nmsi2e",
+      "template_v5o82cp",
+      form.current,
+      "HN1BfRgPpwnU-tphN",
 
-       e.target.reset()
-      );
+      e.target.reset()
+    );
 
-      /*.then(
+    /*.then(
         (result) => {
           console.log(result.text);
         },
