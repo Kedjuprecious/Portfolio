@@ -1,123 +1,123 @@
-import React from "react";
-import "./Portfolio.css";
-import IMGI from "../../assets/Nature.png";
-import IMGI1 from "../../assets/Weather.png";
-import IMGI2 from "../../assets/landingpage.png";
-import IMGI3 from "../../assets/Ferriswheel.png";
-import IMGI4 from "../../assets/drone.jpeg";
-import IMGI5 from "../../assets/Bar.png";
+// import React from "react";
+// import "./Portfolio.css";
+// import IMGI from "../../assets/Nature.png";
+// import IMGI1 from "../../assets/Weather.png";
+// import IMGI2 from "../../assets/landingpage.png";
+// import IMGI3 from "../../assets/Ferriswheel.png";
+// import IMGI4 from "../../assets/drone.jpeg";
+// import IMGI5 from "../../assets/Bar.png";
 
-const Portfolio = () => {
-  return (
-    <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Porfolio</h2>
+// const Portfolio = () => {
+//   return (
+//     <section id="portfolio">
+//       <h5>My Recent Work</h5>
+//       <h2>Porfolio</h2>
 
-      <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMGI} alt="porfolio" />
-            <h3>A website on nature and protection of the environment</h3>
-            <div className=".portfolio__item-cta">
-              <a href="https://github.com" className="btn">
-                Github
-              </a>
-              <a
-                href="https://dribble.com/Alien_pixels"
-                className="btn btn-primary"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMGI1} alt="porfolio" />
-            <h3>Weather change</h3>
-            <div className=".portfolio__item-cta">
-              <a href="https://github.com" className="btn">
-                Github
-              </a>
-              <a
-                href="https://dribble.com/Alien_pixels"
-                className="btn btn-primary"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMGI2} alt="porfolio" />
-            <h3>Landing page</h3>
-            <div className=".portfolio__item-cta">
-              <a href="https://github.com" className="btn">
-                Github
-              </a>
-              <a
-                href="https://dribble.com/Alien_pixels"
-                className="btn btn-primary"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMGI3} alt="porfolio" />
-            <h3>A ferris wheel</h3>
-            <div className=".portfolio__item-cta">
-              <a href="https://github.com" className="btn">
-                Github
-              </a>
-              <a
-                href="https://dribble.com/Alien_pixels"
-                className="btn btn-primary"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMGI4} alt="porfolio" />
-            <h3>Also have an experience in drone piloting🙃</h3>
-            <div className=".portfolio__item-cta">
-              <a href="https://github.com" className="btn">
-                Github
-              </a>
-              <a
-                href="https://dribble.com/Alien_pixels"
-                className="btn btn-primary"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMGI5} alt="porfolio" />
-            <h3>A naviagtion bar</h3>
-            <div className=".portfolio__item-cta">
-              <a href="https://github.com" className="btn">
-                Github
-              </a>
-              <a
-                href="https://dribble.com/Alien_pixels"
-                className="btn btn-primary"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-  );
-};
-export default Portfolio;
+//       <div className="container portfolio__container">
+//         <article className="portfolio__item">
+//           <div className="portfolio__item-image">
+//             <img src={IMGI} alt="porfolio" />
+//             <h3>A website on nature and protection of the environment</h3>
+//             <div className=".portfolio__item-cta">
+//               <a href="https://github.com" className="btn">
+//                 Github
+//               </a>
+//               <a
+//                 href="https://dribble.com/Alien_pixels"
+//                 className="btn btn-primary"
+//               >
+//                 Live Demo
+//               </a>
+//             </div>
+//           </div>
+//         </article>
+//         <article className="portfolio__item">
+//           <div className="portfolio__item-image">
+//             <img src={IMGI1} alt="porfolio" />
+//             <h3>Weather change</h3>
+//             <div className=".portfolio__item-cta">
+//               <a href="https://github.com" className="btn">
+//                 Github
+//               </a>
+//               <a
+//                 href="https://dribble.com/Alien_pixels"
+//                 className="btn btn-primary"
+//               >
+//                 Live Demo
+//               </a>
+//             </div>
+//           </div>
+//         </article>
+//         <article className="portfolio__item">
+//           <div className="portfolio__item-image">
+//             <img src={IMGI2} alt="porfolio" />
+//             <h3>Landing page</h3>
+//             <div className=".portfolio__item-cta">
+//               <a href="https://github.com" className="btn">
+//                 Github
+//               </a>
+//               <a
+//                 href="https://dribble.com/Alien_pixels"
+//                 className="btn btn-primary"
+//               >
+//                 Live Demo
+//               </a>
+//             </div>
+//           </div>
+//         </article>
+//         <article className="portfolio__item">
+//           <div className="portfolio__item-image">
+//             <img src={IMGI3} alt="porfolio" />
+//             <h3>A ferris wheel</h3>
+//             <div className=".portfolio__item-cta">
+//               <a href="https://github.com" className="btn">
+//                 Github
+//               </a>
+//               <a
+//                 href="https://dribble.com/Alien_pixels"
+//                 className="btn btn-primary"
+//               >
+//                 Live Demo
+//               </a>
+//             </div>
+//           </div>
+//         </article>
+//         <article className="portfolio__item">
+//           <div className="portfolio__item-image">
+//             <img src={IMGI4} alt="porfolio" />
+//             <h3>Also have an experience in drone piloting🙃</h3>
+//             <div className=".portfolio__item-cta">
+//               <a href="https://github.com" className="btn">
+//                 Github
+//               </a>
+//               <a
+//                 href="https://dribble.com/Alien_pixels"
+//                 className="btn btn-primary"
+//               >
+//                 Live Demo
+//               </a>
+//             </div>
+//           </div>
+//         </article>
+//         <article className="portfolio__item">
+//           <div className="portfolio__item-image">
+//             <img src={IMGI5} alt="porfolio" />
+//             <h3>A naviagtion bar</h3>
+//             <div className=".portfolio__item-cta">
+//               <a href="https://github.com" className="btn">
+//                 Github
+//               </a>
+//               <a
+//                 href="https://dribble.com/Alien_pixels"
+//                 className="btn btn-primary"
+//               >
+//                 Live Demo
+//               </a>
+//             </div>
+//           </div>
+//         </article>
+//       </div>
+//     </section>
+//   );
+// };
+// export default Portfolio;
